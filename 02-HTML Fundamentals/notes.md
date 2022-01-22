@@ -9,7 +9,11 @@
 - `<div>` is also a semantic element, but used when we don't want to attach a specific meaning to that element
 - `&copy;` - is one of the HTML entities, or a special text used for a copyright symbol in an HTML document
 
-##### Best Practices
+### 22.01.22
+
+- `<aside>` element is used for secondary information (usually sidebars) to the main part of the webpage
+
+### Best Practices
 
 - It's considered a good practice to have only one `<h1>` heading element in a single webpage
 - Use `<strong>`, `<em>` instead of `<b>`, `<i>`, because they have a semantic meaning (HTML5)
