@@ -1,11 +1,18 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+/* global-reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
   color: #444;
   font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 h1,
@@ -23,10 +30,14 @@ h1 {
 
 h2 {
   font-size: 28px;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 h3 {
   font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -38,10 +49,18 @@ h4 {
 p {
   font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 /* descendant selector
@@ -65,6 +84,10 @@ article header p {
 }
 
 /* class selector */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
 .related-author {
   font-size: 18px;
   font-weight: bold;
@@ -76,10 +99,105 @@ article header p {
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 40px 0;
+  width: 500px;
 }
+
+/* pseudo classes */
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  /* font-style: italic; */
+  margin-bottom: 0;
+}
+
+/* li:nth-child(2) {
+  color: #1098ad;
+} */
+
+/* pseudo classes misconception with descendant selector
+article p:first-child {
+  color: blue;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline #1098ad;
+}
+
+a:active {
+  font-style: italic;
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* inline-block */
+nav a:link {
+  display: inline-block;
+  margin: 15px;
+}
+
+/* absolute position */
+button {
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* pseudo elements */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2::after {
+  content: 'NEW';
+  color: #444;
+  background-color: greenyellow;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+/* adjacent selector */
+/* h3 + p {
+  color: red;
+} */
