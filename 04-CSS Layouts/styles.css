@@ -19,7 +19,7 @@ body {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -31,10 +31,6 @@ nav {
 nav a:link {
   display: inline-block;
   margin: 15px;
-}
-
-article {
-  margin-bottom: 60px;
 }
 
 .post-header {
@@ -75,7 +71,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 40px 0;
-  width: 500px;
+  /* width: 500px; */
 }
 
 .related-posts {
@@ -263,6 +259,7 @@ footer {
   font-style: italic;
 }
 
+/* FLEXBOX LAYOUT
 .row {
   display: flex;
   align-items: flex-start;
@@ -277,4 +274,22 @@ article {
 
 aside {
   flex: 0 0 300px;
+} 
+*/
+
+/* CSS GRID */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  align-items: start;
+  column-gap: 60px;
+  row-gap: 60px;
+}
+
+.main-header {
+  grid-column: 1/-1;
+}
+
+footer {
+  grid-column: 1/-1;
 }
