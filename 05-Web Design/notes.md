@@ -57,6 +57,12 @@ Border radius
 - It can be added on buttons, images, around icons, standout sections and other elements.
 - `border-radius: 12px;` is used to set the border radius (corners) of an element.
 
+Whitespace
+
+- Whitespace is simply the space between elements but can make look clean and modern.
+- It communicates how different elements of information are related to one another.
+- whitespaces are also used inside group of elements instead of the horizontal lines.
+
 ### Best Practices
 
 - The smaller or longer the text, the larger the line height needs to be applied.
