@@ -44,6 +44,13 @@ Icons
 - SVG icons or the icon fonts are the best, but not the bitmap formats like `.jpg` or `.png`.
 - `stroke: color;` or `fill: color;` is used to change the color of an outline or solid SVG icon.
 
+Shadows
+
+- Shadows creates a depth (3D) to represent distance between the interface and the elements.
+- It can be used on boxes and texts in small doses to maintain visual hierarchy of a webpage.
+- `box-shadow: 0 20px 30px 0 rgba(0,0,0,0.08);` is used to add shadows to a box element.
+- `text-shadow: 0 20px 30px rgba(0,0,0,0.08);` is used to add shadows to a text element.
+
 ### Best Practices
 
 - The smaller or longer the text, the larger the line height needs to be applied.
