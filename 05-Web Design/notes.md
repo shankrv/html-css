@@ -63,6 +63,12 @@ Whitespace
 - It communicates how different elements of information are related to one another.
 - whitespaces are also used inside group of elements instead of the horizontal lines.
 
+Visual Hierarchy
+
+- Visual hierarchy is about establishing which elements of a page are the important ones.
+- It can be achieved using a combination of position, size, colors, spacing, borders and shadows.
+- Images draw a lot of attention and so they should be placed on the webpage mindfully.
+
 ### Best Practices
 
 - The smaller or longer the text, the larger the line height needs to be applied.
