@@ -51,6 +51,12 @@ Shadows
 - `box-shadow: 0 20px 30px 0 rgba(0,0,0,0.08);` is used to add shadows to a box element.
 - `text-shadow: 0 20px 30px rgba(0,0,0,0.08);` is used to add shadows to a text element.
 
+Border radius
+
+- Border radius is used to maintain the seriousness or playfulness of any design.
+- It can be added on buttons, images, around icons, standout sections and other elements.
+- `border-radius: 12px;` is used to set the border radius (corners) of an element.
+
 ### Best Practices
 
 - The smaller or longer the text, the larger the line height needs to be applied.
