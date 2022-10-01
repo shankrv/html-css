@@ -37,6 +37,13 @@ Images/Illustrations
 - We should use compressed version of the images to lower file size and better load performance.
 - When using multiple images side-by-side, make sure they should have the exact same dimensions.
 
+Icons
+
+- Icons are used to provide visual assistance to the text elements, like feature-boxes.
+- Icons should be used from a single icon-pack and not to be mixed with other icon-packs.
+- SVG icons or the icon fonts are the best, but not the bitmap formats like `.jpg` or `.png`.
+- `stroke: color;` or `fill: color;` is used to change the color of an outline or solid SVG icon.
+
 ### Best Practices
 
 - The smaller or longer the text, the larger the line height needs to be applied.
