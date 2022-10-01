@@ -69,7 +69,16 @@ Visual Hierarchy
 - It can be achieved using a combination of position, size, colors, spacing, borders and shadows.
 - Images draw a lot of attention and so they should be placed on the webpage mindfully.
 
+User Experience (UX)
+
+- UI is the visual presentation of a website whereas UX is the overall experience of the user.
+- UX design can not exist without UI design and the end goal is to fulfill the user and business goals.
+- Being familiar with the layout of a website is more important than being original or creative.
+
 ### Best Practices
 
 - The smaller or longer the text, the larger the line height needs to be applied.
 - The images should be 2x or 3x of the visible display size for high-resolution screens.
+- Forms should have aligned labels and fields in a single vertical line to read.
+- Users should have good feedback offered for all the actions like error, success.
+- Animations should have a purpose and be fast, somewhat between 200 and 500 ms.
