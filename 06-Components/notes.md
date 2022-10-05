@@ -6,6 +6,7 @@ Elements -> Components -> Layouts -> Webpage
 
 - Accordion
 - Carousel
+- Table
 
 ### Best Practices
 
