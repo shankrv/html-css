@@ -29,6 +29,7 @@ Responsive Design Principles
 - adding `border` to an element in special state(s) would add space around the element
 - `box-shadow: inset 0 0 0 2px black;` can be used instead to add outline inside the element
 - `transition: color 0.2s;` is used in original state to set CSS animations on the element
+- `z-index: -1;` is used to position the element above/below another element on the Z-axis
 
 ### Best Practices
 
@@ -37,3 +38,5 @@ Responsive Design Principles
 - Run the Lighthouse performance test in Chrome DevTools and to fix any reported issues
 - add `!important` to helper classes to have maximum priority while applying the styles
 - `header`, `main`, and `footer` are the base semantic elements in HTML5 for a webpage layout
+- pseudo elements are used to add visual styles instead of a new element polluting the HTML
+- pseudo elements (child) can not be added to the image element as per the HTML standards
