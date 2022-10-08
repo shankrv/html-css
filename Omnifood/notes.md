@@ -30,6 +30,7 @@ Responsive Design Principles
 - `box-shadow: inset 0 0 0 2px black;` can be used instead to add outline inside the element
 - `transition: color 0.2s;` is used in original state to set CSS animations on the element
 - `z-index: -1;` is used to position the element above/below another element on the Z-axis
+- `filter` and `opacity` is used to apply filters and set opacity on the image element
 
 ### Best Practices
 
