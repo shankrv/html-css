@@ -36,3 +36,4 @@ Responsive Design Principles
 - Sketching is an iterative process and can be experimental until a first good solution
 - Run the Lighthouse performance test in Chrome DevTools and to fix any reported issues
 - add `!important` to helper classes to have maximum priority while applying the styles
+- `header`, `main`, and `footer` are the base semantic elements in HTML5 for a webpage layout
