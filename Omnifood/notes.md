@@ -22,10 +22,17 @@ Responsive Design Principles
 - `max-width` will take the set value if the parent is greater, else the parent container width
 - `1 rem` is the root element (html) font size which is simply equal to the default browser font-size (`16px`)
 - `rem` unit is powerful to scale the length of elements just based on the `font-size` of the root html
-- we set the `html` `font-size` to `62.5%` (10/16) to respect the definition of the browser's font-size
+- set the `html` `font-size` to `62.5%` (10/16) to respect the definition of the browser's font-size
+
+### 08.10.22
+
+- adding `border` to an element in special state(s) would add space around the element
+- `box-shadow: inset 0 0 0 2px black;` can be used instead to add outline inside the element
+- `transition: color 0.2s;` is used in original state to set CSS animations on the element
 
 ### Best Practices
 
-- The content of a website should always guide the design, and not the other way round.
-- Sketching is an iterative process and can be experimental until a first good solution.
-- Run the Lighthouse performance test in Chrome DevTools and to fix any reported issues.
+- The content of a website should always guide the design, and not the other way round
+- Sketching is an iterative process and can be experimental until a first good solution
+- Run the Lighthouse performance test in Chrome DevTools and to fix any reported issues
+- add `!important` to helper classes to have maximum priority while applying the styles
