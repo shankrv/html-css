@@ -32,6 +32,11 @@ Responsive Design Principles
 - `z-index: -1;` is used to position the element above/below another element on the Z-axis
 - `filter` and `opacity` is used to apply filters and set opacity on the image element
 
+### 09.10.22
+
+- `currentColor` is used as a value to set the color to its own element color
+- `transparent` is used as a value to make the style as completely transparent
+
 ### Best Practices
 
 - The content of a website should always guide the design, and not the other way round
