@@ -37,6 +37,10 @@ Responsive Design Principles
 - `currentColor` is used as a value to set the color to its own element color
 - `transparent` is used as a value to make the style as completely transparent
 
+### 11.10.22
+
+- `transform: rotate(angle);` is used to rotate the element by the given angle
+
 ### Best Practices
 
 - The content of a website should always guide the design, and not the other way round
