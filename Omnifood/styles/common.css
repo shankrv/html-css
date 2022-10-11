@@ -49,6 +49,10 @@ strong {
   column-gap: 6.4rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {

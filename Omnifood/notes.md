@@ -41,6 +41,10 @@ Responsive Design Principles
 
 - `transform: rotate(angle);` is used to rotate the element by the given angle
 
+### 12.10.22
+
+- `.class:not(:last-child) {};` is the NOT selector to exclude elements (negation pseudo class)
+
 ### Best Practices
 
 - The content of a website should always guide the design, and not the other way round
