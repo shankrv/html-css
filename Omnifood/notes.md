@@ -45,6 +45,13 @@ Responsive Design Principles
 
 - `.class:not(:last-child) {};` is the NOT selector to exclude elements (negation pseudo class)
 
+### 13.10.22
+
+- `background-image: linear-gradient(45deg, white, black);` is used to add gradients to an element
+- `<label for="username">` is used with `<input id="username">` to activate the input field on click
+- `inherit` is used as a value to inherit the selected property value from the parent element
+- `outline` and `outline-offset` are used to style the `focus` state of the elements of webpage
+
 ### Best Practices
 
 - The content of a website should always guide the design, and not the other way round
@@ -54,3 +61,5 @@ Responsive Design Principles
 - `header`, `main`, and `footer` are the base semantic elements in HTML5 for a webpage layout
 - pseudo elements are used to add visual styles instead of a new element polluting the HTML
 - pseudo elements (child) can not be added to the image element as per the HTML standards
+- add `role="img"` and `aria-label="content"` on empty elements for better accessibility
+- such properties on elements are helpful for the visually impaired users on screen-readers
