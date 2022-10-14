@@ -52,6 +52,11 @@ Responsive Design Principles
 - `inherit` is used as a value to inherit the selected property value from the parent element
 - `outline` and `outline-offset` are used to style the `focus` state of the elements of webpage
 
+### 14.10.22
+
+- `href="tel:9876543210"` and `href="mailto:someone@example.com"` are used for OS calling and mailing applications
+- `<address>` element has the default font-style as italic and gets inherited by all its child elements
+
 ### Best Practices
 
 - The content of a website should always guide the design, and not the other way round
@@ -63,3 +68,4 @@ Responsive Design Principles
 - pseudo elements (child) can not be added to the image element as per the HTML standards
 - add `role="img"` and `aria-label="content"` on empty elements for better accessibility
 - such properties on elements are helpful for the visually impaired users on screen-readers
+- `display: flex` and `margin-left: auto` is used to place the last element at the end (stretch)
