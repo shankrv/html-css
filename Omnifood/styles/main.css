@@ -6,6 +6,7 @@
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -17,7 +18,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -46,6 +47,22 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* Mobile */
+.btn-nav-mobile {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-nav-mobile {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-nav-mobile[name='close-outline'] {
+  display: none;
 }
 
 /* --- HERO --- */
