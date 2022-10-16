@@ -4,24 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/media.css" />
-    <title>Omnifood</title>
+    <title>Omnifood - Never cook again!</title>
   </head>
   <body>
     <header class="header">
       <a href="#"><img class="logo" src="images/logo.png" alt="omnifood" /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
       <button class="btn-nav-mobile">
@@ -38,8 +45,8 @@
               The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
               personal tastes and nutritional needs.
             </p>
-            <a href="#" class="btn btn-fill margin-right-sm">Start eating well</a>
-            <a href="#" class="btn btn-outline">Learn more &darr;</a>
+            <a href="#cta" class="btn btn-fill margin-right-sm">Start eating well</a>
+            <a href="#how-it-works" class="btn btn-outline">Learn more &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-meals-customers">
                 <img src="images/customers/customer-1.jpg" alt="customer-1" />
@@ -53,7 +60,11 @@
             </div>
           </div>
           <div class="hero-image-box">
-            <img class="hero-image" src="images/hero.png" alt="omnifood overview" />
+            <picture>
+              <source srcset="images/hero-min.webp" type="image/webp" />
+              <source srcset="images/hero.png" type="image/png" />
+              <img class="hero-image" src="images/hero.png" alt="omnifood overview" />
+            </picture>
           </div>
         </div>
       </section>
@@ -69,7 +80,7 @@
           </div>
         </div>
       </section>
-      <section class="section-how-it-works">
+      <section class="section-how-it-works" id="how-it-works">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
@@ -114,7 +125,7 @@
           </div>
         </div>
       </section>
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -202,7 +213,7 @@
           <a href="#" class="link">See all recipes &rarr;</a>
         </div>
       </section>
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="container-testimonials">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -256,7 +267,7 @@
           <figure class="gallery-item"><img src="images/gallery/gallery-12.jpg" alt="Gallery-12" /></figure>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">Eating well without breaking the bank</h2>
@@ -341,7 +352,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="grid-cta">
             <div class="cta-text-box">
@@ -392,7 +403,9 @@
               <a class="footer-nav-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
             </li>
           </ul>
-          <p class="copyright">Copyright &copy; 2022 by Omnifood, Inc. All rights reserved.</p>
+          <p class="copyright">
+            Copyright &copy; <span class="footer-year">20xx</span> by Omnifood, Inc. All rights reserved.
+          </p>
         </div>
         <div class="footer-col-address">
           <p class="footer-heading">Contact us:</p>
@@ -434,5 +447,6 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="scripts/script.js"></script>
   </body>
 </html>
